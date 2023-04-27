@@ -62,6 +62,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem "htmlbeautifier"
 end
 
 group :test do
@@ -71,7 +72,7 @@ group :test do
   gem "webdrivers"
 end
 
-gem "device"
+gem 'devise'
 gem "refile", require: "refile/rails", github: "manfe/refile"
 gem "refile-mini_magick"
-gem "bulma-rails"
+gem "bulma-rails", "~> 0.9.4"
